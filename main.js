@@ -26,7 +26,7 @@ for (let i = 0; i < estados.length; i++) {
     console.log(estados[i]);
 } 
 let idade = prompt("Qual é tua idade?") ;
-if( 18 > 17){
+if( idade> 17){
 alert('pode dirigir')
 }
 else{
